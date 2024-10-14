@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylistics.css">
+    <title>LADALÈ - Products</title>
+</head>
+<body>
+
+    <div class="nav-bar">
+        <button class="menu-button">
+            MENU
+        </button>
+
+        <a href="index.html" class="logo">
+            LADALÈ
+        </a>
+
+        <div class="shop-button-container">
+            <!--
+            <a href="shopping-cart.html">
+                <div class="shopping-cart">
+        
+                </div>
+            </a>
+            -->
+           
+
+            <button class="shop-btn">
+                Shop
+            </button>
+
+           
+        </div>
+
+     
+  
+       
+    </div>
+
+    <div data-visible="false" class="nav-menu ">
+       
+      
+
+        <a href="menu.html" class="nav-links">
+            Food Menu
+        </a>
+
+        <a href="products.html" class="nav-links">
+            Products
+        </a>
+
+        <a href="" class="nav-links">
+            Contact
+        </a>
+       
+
+
+    </div>
+
+    <div class="product-detail-section">
+        <div>
+            <img src="placeholder.webp" alt="" class="img-stylings product-detail-img">
+        </div>
+       
+        <div class="detail-info-section">
+
+        
+            <div class="product-title-price">
+                <p>
+                    Product Title
+                </p>
+              
+                <p data-price="$20.00"  class="product-detail-cost">
+                    
+                </p>
+            </div>
+
+           
+
+            <p class="product-info">
+                blah blah
+            </p>
+
+           
+
+            <div class="size-container">
+                <p class="parameter-title">
+                    Size
+                </p>
+                <div class="size-section">
+                    <button data-size="12 oz" data-size-selected="true" class="size-option">
+                        12 oz
+                    </button>
+    
+              
+    
+                    <button data-size="5 lb" data-size-selected="false" class="size-option">
+                        5 lb
+                    </button>
+                </div>
+                
+            </div>
+
+            
+
+            <div>
+                <p class="parameter-title">
+                    Grind
+                </p>
+                <div class="grind-section">
+                    <button data-grind="Whole Bean" data-grind-selected="true" class="grind-option">
+                        Whole Bean
+                    </button>
+                    
+                    <button data-grind="Coarse"  data-grind-selected="false" class="grind-option">
+                        Coarse
+                    </button>
+    
+                    <button data-grind="Medium" data-grind-selected="false" class="grind-option">
+                        Medium
+                    </button>
+
+                    <button data-grind=" Medium Fine" data-grind-selected="false" class="grind-option">
+                        Medium Fine
+                    </button>
+    
+                    <button data-grind="Fine" data-grind-selected="false" class="grind-option">
+                        Fine
+                    </button>
+                </div>
+                
+            </div>
+
+            <div class="quantity-container">
+                <button class="decrease">
+                    -
+                </button>
+            
+
+                <div class="quantity-display">
+                    
+                </div>
+
+                <button class="increase">
+                    +
+                </button>
+            </div>
+
+            <button class="add-to-cart">
+                Add to Cart
+            </button>
+        </div>
+    </div>
+
+    <div class="shopping-cart-container">
+       
+    </div>
+
+    <script src="function.js"></script>
+    <script src="product-detail-page.js"></script>
+</body>
+</html>

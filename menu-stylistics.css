@@ -1,0 +1,91 @@
+
+@font-face {
+    font-family: "BarlowCondensed";
+    src: url('DomaineText-Regular.1r5LAFzB.woff2');
+   
+}
+
+@font-face {
+    font-family: "HKGrotesk";
+    src: url('HKGrotesk/HKGrotesk-Medium.woff2');
+   
+}
+
+.menu-btn-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  
+}
+
+.menu-btn-stylings{
+    font-size: 16px;
+    font-family: "HKGrotesk";
+    border: solid 1px #333333;
+    background-color: #fffff0;
+    transition: 750ms ease;
+    padding: .25rem .5rem;
+}
+
+.menu-btn-active{
+    color: #fdfce8;
+    border: solid 1px #000;
+    background-color: #000;
+    transition: 750ms ease;
+}
+
+.menu-breakfast-container,
+.menu-lunch-container,
+.menu-dinner-container,
+.menu-coffee-container,
+.menu-softdrinks-container{
+    padding: 1rem 1rem 1rem 1rem;
+    animation: menu-animation 1000ms ease;
+}
+
+
+@keyframes menu-animation {
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+
+
+.menu-hidden{
+    display: none;
+}
+
+
+
+
+
+
+
+.individual-item-container{
+    display: grid;
+   /* grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr); */ 
+}
+
+.item-name{
+    font-family: "BarlowCondensed";
+    font-size: 30px;
+}
+
+.item-price{
+    font-family: "BarlowCondensed";
+    text-align: right;
+    grid-column: span 1;
+    grid-row: span 1;
+
+}
+
+.item-description{
+    margin-top: .5rem;
+    grid-column: span 2;
+}
+
